@@ -104,8 +104,7 @@
    [ "string.begin.objc", "@\"" ],
    [ "constant.character.escape.objc", "\\f" ],
    [ "string", "aw" ],
-   [ "constant.character.escape.objc", "\\\"" ],
-   [ "constant.character.escape.objc", "\\?" ],
+   [ "constant.character.escape.objc", "\\\"\\?" ],
    [ "string", " " ],
    [ "constant.character.escape.objc", "\\'" ],
    [ "string", " " ],
@@ -344,8 +343,7 @@
    [ "text", "    " ],
    [ "identifier", "result" ],
    [ "text", " " ],
-   [ "keyword.operator", "+" ],
-   [ "keyword.operator", "=" ],
+   [ "keyword.operator", "+=" ],
    [ "text", " " ],
    [ "constant.numeric", "2" ],
    [ "text", " " ],
@@ -579,8 +577,7 @@
    [ "identifier", "ProtocolFromString" ],
    [ "punctuation.operator", ":" ],
    [ "string", "\"NSTableViewDelegate\"" ],
-   [ "paren.rparen", ")" ],
-   [ "paren.rparen", ")" ]
+   [ "paren.rparen", "))" ]
   ]
  },
  {
@@ -711,14 +708,12 @@
  {
   "state": "start",
   "data": [
-   [ "punctuation.definition.storage.type.objc", "@" ],
-   [ "punctuation.definition.storage.type.objc", "selector" ],
+   [ "punctuation.definition.storage.type.objc", "@selector" ],
    [ "punctuation", "(" ],
    [ "support.function.any-method.name-of-parameter.objc", "lowercaseString" ],
    [ "punctuation", ")" ],
    [ "text", " " ],
-   [ "punctuation.definition.storage.type.objc", "@" ],
-   [ "punctuation.definition.storage.type.objc", "selector" ],
+   [ "punctuation.definition.storage.type.objc", "@selector" ],
    [ "punctuation", "(" ],
    [ "support.function.any-method.name-of-parameter.objc", "uppercaseString:" ],
    [ "punctuation", ")" ]
@@ -738,8 +733,7 @@
    [ "text", " " ],
    [ "keyword.operator", "=" ],
    [ "text", " " ],
-   [ "punctuation.section.scope.begin.objc", "[" ],
-   [ "punctuation.section.scope.begin.objc", "[" ],
+   [ "punctuation.section.scope.begin.objc", "[[" ],
    [ "identifier", "NSFetchRequest" ],
    [ "text", " " ],
    [ "support.function.any-method.objc", "alloc" ],
@@ -800,8 +794,7 @@
    [ "identifier", "ascending" ],
    [ "punctuation.operator", ":" ],
    [ "constant.language.objc", "YES" ],
-   [ "paren.rparen", "]" ],
-   [ "paren.rparen", "]" ],
+   [ "paren.rparen", "]]" ],
    [ "punctuation.operator", ";" ],
    [ "text", "  " ]
   ]
@@ -890,8 +883,7 @@
    [ "text", " " ],
    [ "keyword.operator", "=" ],
    [ "text", " " ],
-   [ "punctuation.section.scope.begin.objc", "[" ],
-   [ "punctuation.section.scope.begin.objc", "[" ],
+   [ "punctuation.section.scope.begin.objc", "[[" ],
    [ "identifier", "myMutableDictionary" ],
    [ "text", " " ],
    [ "support.function.any-method.objc", "allKeys" ],
@@ -1004,8 +996,7 @@
    [ "text", " " ],
    [ "identifier", "__DARWIN_NULL" ],
    [ "text", "   " ],
-   [ "comment", "/*" ],
-   [ "comment", " id of Nil class */" ]
+   [ "comment", "/* id of Nil class */" ]
   ]
  },
  {
